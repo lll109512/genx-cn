@@ -57,8 +57,12 @@ const Footer = () => (
                     <h4 className={tw(`font-mono text-sm uppercase text-gray-500 mb-3`)}>联系方法</h4>
                     <div>
                         <p className={tw(`text-gray-800`)}>陕西省西安市碑林区南二环西段西安创新设计中心1003</p>
-                        <p className={tw(`text-gray-800 my-1`)}>info@gen-x.tech</p>
-                        <p className={tw(`text-gray-800`)}>+86 15029575560</p>
+                        <p className={tw(`text-gray-800 my-1`)}>
+                            lll1095<div className={tw(`inline`)}>12@outlook.com</div>
+                        </p>
+                        <p className={tw(`text-gray-800`)}>
+                            +86 150<div className={tw(`inline`)}>29575560</div>
+                        </p>
                     </div>
                     {/* <div className={tw(`flex w-full`)}>
                         <input
