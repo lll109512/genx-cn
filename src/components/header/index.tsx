@@ -8,10 +8,12 @@ import Aws from '@/constants/svg/aws.svg';
 const headerStyle = css`
     background-color: #ffffff;
     min-height: calc(100vh - 6rem);
+    position: 'relative';
 `;
 
 const Header = () => (
     <header className={tw(headerStyle)}>
+        <img alt="bg" src="/bg.jpg" className={tw(`absolute opacity-10 h-screen w-screen -mt-24 object-cover`)} />
         <div className={tw(`max-w-4xl mx-auto py-16 px-14 sm:px-6 lg:px-8`)}>
             <h1
                 className={tw(
