@@ -3,22 +3,20 @@ import FeatureSvg from '@/constants/svg/features.svg';
 
 const listItems = [
     {
-        title: `Designers`,
-        description: `Officia et fugiat mollit qui. Dolor elit aliqua voluptate ipsum
-    excepteur cillum consequat consectetur duis magna qui eu consequat occaecat.
-    Deserunt nisi sit.`,
+        title: `软件产品孵化`,
+        description: `Gen-X Tech富有创造力的专业及高效的团队致力于将您的创意转化成为成熟的软件产品。`,
     },
     {
-        title: `Developers`,
-        description: `Pariatur consectetur laboris exercitation duis laboris.
-    Commodo duis fugiat magna fugiat et ut anim elit. Tempor aute ex qui
-    tempor tempor.`,
+        title: `项目实施`,
+        description: `Gen-X Tech项目实施服务，根据您的业务需求及人员需求，运用Gen-X Tech快速开发框架，并重用已开发功能模块， 快速高效地进行项目实施，帮助您省时省钱。`,
     },
     {
-        title: `Product owners`,
-        description: `Ullamco consectetur ipsum eiusmod nisi adipisicing sint anim
-    dolore aute excepteur. Voluptate ea ullamco sunt eu elit qui aliquip.
-    Adipisicing.`,
+        title: `知识产权服务`,
+        description: `成功的知识产权申请及认证在软件产品或项目中扮演着至关重要的作用，Gen-X Tech拥有或共同拥有20+个软件创新专利。Gen-X Tech在过去的1年内，成功为我们的客户申请过近百个不同类型的知识产权。`,
+    },
+    {
+        title: `用户体验 / 用户界面设计`,
+        description: `Gen-X Tech 提供全方位的用户体验和用户界面设计服务，尤其是电脑 / 智能手机 / 平板电脑的交互设计、开发和视觉设计。我们拥有建立人性化、操作便捷的网站和应用的专业经验。`,
     },
 ];
 
@@ -26,11 +24,9 @@ const ListSection = () => (
     <section className={tw(`lg:py-28 pt-28 overflow-hidden`)}>
         <div className={tw(`max-w-7xl mx-auto p-4 sm:p-6 lg:p-8 bg-white`)}>
             <div className={tw(`mb-16 text-center`)}>
-                <h2 className={tw(`text-base text-indigo-600 font-semibold tracking-wide uppercase`)}>
-                    Grow your revenue
-                </h2>
+                <h2 className={tw(`text-base text-primary font-semibold tracking-wide uppercase`)}>主营业务</h2>
                 <p className={tw(`mt-2 pb-4 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900`)}>
-                    Transform your business
+                    转化您的想法
                 </p>
             </div>
             <div className={tw(`flex flex-wrap -mx-8 items-center`)}>

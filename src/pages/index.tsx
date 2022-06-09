@@ -12,18 +12,15 @@ import Footer from '@/components/footer';
 export default function Home() {
     return (
         <Page>
-            <NextSeo
-                title="STARTD - Template"
-                description="A TypeScript/Next.js theme that includes everything you need to build amazing landing page!"
-            />
+            <NextSeo title="Gen-X" description="Gen-x Tech Company" />
             <Header />
             <main>
-                <VideoSection />
+                {/* <VideoSection /> */}
                 <ListSection />
                 <FeatureSection />
-                <CasesSection />
-                <SocialProof />
-                <PricingTable />
+                {/* <CasesSection /> */}
+                {/* <SocialProof /> */}
+                {/* <PricingTable /> */}
             </main>
             <Footer />
         </Page>
