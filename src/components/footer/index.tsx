@@ -58,7 +58,7 @@ const Footer = () => (
                     <div>
                         <p className={tw(`text-gray-800`)}>陕西省西安市碑林区南二环西段西安创新设计中心1003</p>
                         <p className={tw(`text-gray-800 my-1`)}>info@gen-x.tech</p>
-                        <p className={tw(`text-gray-800`)}>02 8268 9988</p>
+                        <p className={tw(`text-gray-800`)}>+86 15029575560</p>
                     </div>
                     {/* <div className={tw(`flex w-full`)}>
                         <input
