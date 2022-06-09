@@ -10,22 +10,22 @@ import PricingTable from '@/components/pricing-table';
 import Footer from '@/components/footer';
 
 export default function Home() {
-  return (
-    <Page>
-      <NextSeo
-        title="STARTD - Template"
-        description="A TypeScript/Next.js theme that includes everything you need to build amazing landing page!"
-      />
-      <Header />
-      <main>
-        <VideoSection />
-        <ListSection />
-        <FeatureSection />
-        <CasesSection />
-        <SocialProof />
-        <PricingTable />
-      </main>
-      <Footer />
-    </Page>
-  );
+    return (
+        <Page>
+            <NextSeo
+                title="STARTD - Template"
+                description="A TypeScript/Next.js theme that includes everything you need to build amazing landing page!"
+            />
+            <Header />
+            <main>
+                <VideoSection />
+                <ListSection />
+                <FeatureSection />
+                <CasesSection />
+                <SocialProof />
+                <PricingTable />
+            </main>
+            <Footer />
+        </Page>
+    );
 }
