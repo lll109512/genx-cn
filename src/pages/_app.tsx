@@ -10,5 +10,6 @@ if (typeof window !== `undefined`) {
 }
 
 export default function MyApp({ Component, pageProps }: AppProps) {
-    return <Component {...pageProps} />;
+    const AnyComponent = Component as any;
+    return <AnyComponent {...pageProps} />;
 }
